@@ -1,0 +1,290 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Canadian Forces Memo
+% LaTeX Template
+% Version 1.0 (21/11/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% K. Thomas
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% Template license:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% 1) Common LaTeX distributions such as MikTeX, MacTeX and TeX Live are
+% open source software and therefore are not authorized on DND computers. You
+% therefore have install and typeset your memo on personal computers at home to 
+% produce a pdf file of your memo that you transfer via email or protected USB stick.
+% 2) This template was created from the American Math Society Article class with tweaks.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{amsart} % Using the American Math Society Article class set to 12pt font
+
+\usepackage[letterpaper]{geometry} % Use US letter size paper
+
+\setlength\parindent{0pt} % Stop paragraph indentation
+
+\usepackage{mathptmx} % Use the Times New Roman font as suggested by the CF writing guide
+
+\usepackage[normalem]{ulem} % Used for underlining text
+\usepackage{hyperref}
+
+\thispagestyle{empty} % Suppress headers, footers and page numbers on the first page
+\pagestyle{empty} % Suppress headers, footers and page numbers on all pages
+
+%----------------------------------------------------------------------------------------
+%	MARGIN CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\addtolength{\oddsidemargin}{4pt} % This is the oddside margin used in oneside articles; 4 pts will add the 1/16th of an inch to get the printing to one inch from the edge of the paper
+
+\addtolength{\textwidth}{40pt} % This command adds width to the text to get it to print 6.5 inches wide (470pts)
+
+\addtolength{\topmargin}{-4pt} % This command will pull the top up the needed 1/32 inch to get it to print exactly 1 inch from top of paper
+
+\addtolength{\textheight}{94pt} % This command enables the text to cover 9 inches (650pts) height leaving 1 inch on the top and bottom for the margins.
+
+% Other margin tweaks to meet CF requirements
+\addtolength{\marginparsep}{-11pt}
+\addtolength{\marginparwidth}{-113pt}
+\addtolength{\evensidemargin}{-38pt}
+\addtolength{\headsep}{-14pt}
+\addtolength{\headheight}{-8pt}
+\addtolength{\footskip}{-12pt}
+\addtolength{\marginparpush}{-5pt}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	MEMO HEADER
+%----------------------------------------------------------------------------------------
+
+% The military writing guide says that as soon as a Service Number is included on a document that at least PROTECTED A be on the document
+% If accompanying documents are PROTECTED B then the memo should also be B
+% If this is not the case comment out the PROTECTED A or B lines with a preceding % sign
+% LaTeX will take care of moving the Memorandum line up to the margin automatically
+\uline{\LARGE{MÉTODOS NUMÉRICOS}}% Change this from B to A as needed
+
+\vspace{14pt}
+
+\large{Semestre: enero-junio 2024}
+
+\vspace{14pt}
+
+%------------------------------------------------
+
+\textbf{Mi nombre:} Armando A. Roque Estrada.
+
+\vspace{8pt}
+
+\hspace{0.375in} Seré el profesor del curso ``Métodos Numéricos''. El curso comienza el día lunes 22 de enero de 2024, y finaliza el miércoles 5 de junio del presente a\~no. El horario del mismo es el que aparece a continuación,
+\begin{table}[h]
+	\begin{tabular}{c| c| c| l}
+		& Inicio & Término& Local \\
+		\hline
+		Lunes & 15:00  & 17:00 & Centro de Cómputo 1\\
+		Miércoles & 15:00 & 17:00 &  Centro de Cómputo 1\\
+		Viernes & 15:00 & 17:00 &  Centro de Cómputo 1 \\\hline
+	\end{tabular}
+\end{table}
+
+Las clases serán presenciales y estas mezclarán indistintamente Conferencias y Clases Prácticas (implementación de códigos numéricos). A continuación se comentan algunos detalles del curso:
+\vspace{8pt}
+
+
+En este curso abordaremos las bases conceptuales de la implementación numérica de las matemáticas. Abarcándose un conjunto de tópicos que servirán para profundizar tanto sus conocimientos en temas de programación y matemáticas, así como serán una herramienta fundamental para futuros trabajos científicos.
+
+\vspace{8pt}
+
+El objetivo será desarrollar una comprensión conceptual básica de los conceptos centrales, y una familiaridad con la parte práctica (implementación numérica). Un punto importante es que en este curso se introducirán diferentes conceptos que les permitirá comprender código numéricos establecidos.
+
+\vspace{8pt}
+Como lenguaje principal usaremos Python, sin embargo podremos usar alguno otro en casos puntuales. El curso será dividido en dos bloques principales y un bloque inicial.
+
+\vspace{8pt}
+
+\textbf{Bloque Cero}
+\begin{enumerate}
+	\item[-] Buenas prácticas al programar.
+	\item[-] Ideas básicas sobre Python y algunos paquetes fundamentales.
+\end{enumerate}
+
+\textbf{Primer Bloque:}
+\begin{itemize}
+	\item[-] Arquitectura de computadores.
+	\item[-] Representaciones numéricas.
+	\item[-] Recursión.
+	\item[-] Propagación de errores.
+	\item[-] Estimación de errores.
+	\item[-] Número de condición  (Condition Numbers).
+\end{itemize}
+
+\textbf{Segundo Bloque:}
+\begin{itemize}
+	\item[-] Expansiones en series: del cálculo a la computación.
+	\item[-] Integrales como sumas y derivadas como diferencias.
+	\item[-] Interpolación, splines y una segunda mirada al cálculo numérico.
+	\item[-] Métodos numéricos para EDO, problemas de valores iniciales.
+	\item[-] Hallazgo de raíces, método de Newton, problemas de valores en la frontera.
+	\item[-] Transformada de Fourier, series de Fourier, teoría del muestreo de Shannon.
+	\item[-] Interpolación de banda limitada, métodos espectrales.
+	\item[-] Aproximación de mínimos cuadrados.
+	\item[-] Extras (Principal component analysis). 
+\end{itemize}
+\vspace{8pt}
+
+\parbox[c]{235pt}{SISTEMA DE EVALUACIÓN}
+\vspace{10pt}
+
+\hspace{0.375in} Debido a las características del curso, la evaluación del mismo se centrará en la participación en clase-entrega de tareas, exámenes parciales y finales.
+\vspace{6pt}
+
+\textbf{Participación/Evaluación/Tareas}: las conferencias y clases prácticas abordarán los diferentes tópicos del temario. Siéntanse libre de plantear sus dudas, interpretaciones. Se intentará mediante ejemplos y ejercicios ir viendo de forma dinámica los diferentes conceptos que se irán discutiendo.
+\vspace{6pt}
+
+\textbf{Exámenes parciales}: se desarrollarán dos/tres exámenes parciales, cuyas fechas se notificarán con una o dos semanas de antelación, y bajo mutuo acuerdo. Los exámenes pueden ser llevados a cabo en una de las siguientes modalidades:
+\begin{itemize}
+	\item[i.] entrega de un proyecto (aviso mínimo dos semanas antes),
+	\item[ii.] examen escrito (aviso mínimo una semana antes),
+	\item[iii.] examen escrito más una parte a desarrollar en la computadora (aviso mínimo una semana antes).
+\end{itemize}
+\vspace{6pt}
+
+\textbf{Examen final}: se aplicará en la fecha establecida por la Universidad y abordará todos los temas vistos en clase. Este examen consistirá en la exposición de un proyecto final, y en caso de considerarse necesario, un examen escrito (se notificaría con dos semanas de antelación).
+
+\vspace{14pt}
+
+\textbf{La calificación final se ponderará en base a}:
+
+\begin{enumerate}
+	\item[i] obtener una calificación mínima de 5 puntos (sobre 10) en el examen final, y
+	\item[ii] obtener una calificación mínima de 7 puntos (sobre 10) en el global de la materia. El cual se desglosa en 10\% participación en clases, 30\% tareas, 30\% exámenes parciales (15\%/ 10\% cada uno), 30\% examen final.
+	\end{enumerate}
+
+\vspace{10pt}
+
+
+\vspace{6pt}
+\textbf{INFORMACIÓN IMPORTANTE}:
+\begin{enumerate}
+	\item  La entrega de tareas, proyectos, e informes han de realizarse acorde al nivel académico esperado. Es decir, deben entregarse de tal forma que pueda ser reproducido y entendido por el revisor.
+	\item Recuerden que en caso de querer darse de baja, hay una fecha establecida para ello. Todo aquél que no lo haga tendrá una calificación final (no hay posibilidad de un no cursó de última hora)
+\end{enumerate}
+
+\vspace{14pt}
+
+Para cualquier duda pueden contactarme por mi correo personal:
+
+\vspace{4pt}
+
+\textbf{arestrada@fisica.ugto.mx} .
+
+\vspace{14pt}
+\textbf{Cualquier eventualidad no contemplada en este documento se analizará en clase.}
+
+\vspace*{22pt} % This is intended to be used for the physical space for signature with a pen
+
+\textbf{Fuentes de Información}
+\vspace{10pt}
+\begin{itemize}
+	\item[1.] Numerical Methods in Physics with Python, Alex Gezerlis. (2020, Cambridge University Press)
+	\item[2.] Python Programming and Numerical Methods A Guide for Engineers and Scientist, Qingkai Kong, Timmy Siauw, Alexandre Bayen.
+	\item[3.] Análisis Numérico, Richard Burden, 10ma edición.
+\end{itemize}
+
+%------------------------------------------------
+
+\vspace*{22pt}
+
+\uline{\LARGE{TIPS.} Acondicionamiento del equipo de computo}
+
+\vspace*{14pt}
+
+Para el desarrollo de los diferentes tópicos usaremos tanto la pizarra como un equipo de cómputo. Para este último pueden hacer uso de la computadora asignada o alguna personal. Para el primero de los casos harán uso de la plataforma 
+\\~\\
+\textbf{Colaboratory}: \url{https://colab.research.google.com/?hl=es}
+\\~\\
+la cual cuenta con la mayoría de los recursos necesarios para un buen desarrollo del curso. En necesario señalar que han de tener una cuenta en gmail para su uso.
+
+\vspace*{14pt}
+En caso de contarse con un equipo de computo personal, se ha de tener instalado una versión de \textbf{Python 3.} A continuación se brindan unos tips para su instalación:
+\vspace{14pt}
+
+%------------------------------------------------
+
+\hspace{0.375in} Los ''tips'' que se comentan a continuación sirven de guia para instalar en Linux, Mac OS o Windows mediante el software (gestor de paquetes)  Anaconda. Una alternativa puede ser descargar directamente Python: \url{https://www.python.org} y  el gestor de paquetes PIP (ver tutorial \url{https://acortar.link/RG5PS8}).
+
+\vspace{12pt}
+
+Pasos:
+\begin{itemize}
+	\item[1-] Descargar e instalar la versión de Anaconda correspondiente al sistema operativo y versión de Python usada (se recomienda python 3.)
+	 
+	\url{https://www.anaconda.com/products/individual}
+	
+	\item[3-] Configurar Anaconda,
+	
+	\begin{enumerate}
+		\item Actualizar \textit{conda} y \textit{jupyter}, abrir una terminal y teclear,
+			\vspace{8pt}
+	
+			\emph{conda update conda}
+	
+			\emph{conda update jupyter}
+		\item Instalar librerías básicas,
+			\vspace{8pt}
+	
+			\emph{conda install anaconda::numpy} (\url{https://numpy.org})
+	
+			\emph{conda install conda-forge::matplotlib} (\url{https://matplotlib.org})
+	
+			\emph{conda install anaconda::scipy} (\url{https://scipy.org})
+	
+		\emph{conda install anaconda::pandas} (\url{https://pandas.pydata.org})
+	
+	\vspace{8pt}
+	
+	\textbf{Otras:} TensorFlow, PyTorch, Keras, Scikit-learn, Seaborn, Bokeh, Sympy, Numba
+	\item Comprobar la instalación, escribir en una terminal y teclear
+	\vspace{8pt}
+	\emph{jupyter-notebook}
+		\end{enumerate}
+\end{itemize}
+
+Posibles errores:
+\vspace{8pt}
+
+No se ejectuta, python, conda o jupyter-notebook desde la consola. Posible solución:
+
+\vspace{8pt}
+Windows
+
+\url{https://acortar.link/RHLKrH}
+
+\vspace{8pt}
+MacOS y Linux
+
+Es necesario modificar el .bash\_profile, contactarme por correo para explicarles como hacerlo. 
+
+
+\vspace{14pt}
+
+\parbox[c]{235pt}{EDITOR}
+\vspace{8pt}
+
+Una de las herramientas más útiles para programar son los editores, los mismos nos ahorran mucho trabajo. Aunque para el caso de Python podemos usar (y usaremos) la herramienta jupyter, pero cuando se trabaja con servidores, etc. es necesario crear \textit{scripts} con nuestros códigos, siendo los editores la herramienta ideal para ello.  Uno que recomiendo es Visual Studio Code \url{https://code.visualstudio.com} con las extensiones: Python, Jupyter, Python Indent, Python Extended.
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
