@@ -7,4 +7,4 @@ In this repository, I present a set of Jupyter notebooks (in the Spanish languag
     - Buenas prácticas al programar.
 	- Ideas básicas sobre Python y algunos paquetes fundamentales.
 - Bloque Uno
-    - Método Bisec
+    - Método Bis
