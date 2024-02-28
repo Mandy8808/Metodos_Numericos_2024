@@ -7,4 +7,6 @@ In this repository, I present a set of Jupyter notebooks (in the Spanish languag
     - Buenas prácticas al programar.
 	- Ideas básicas sobre Python y algunos paquetes fundamentales.
 - Bloque Uno
-    - Método Bis
+    - Errores. Tipos de errores. Error Real, Absoluto y Relativo. Propagación de errores. Representación de número reales. Comparando flotantes. Suma compensada. Manipulando expresiones.
+    - Root de ecuaciones de una variable. Método de bisección. Iteración del punto fijo. Método de Newton. Método de la secante (v1). Método de la secante (v2)
+    - 
