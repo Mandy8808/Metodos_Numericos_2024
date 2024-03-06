@@ -30,3 +30,14 @@ In this repository, I present a set of Jupyter notebooks (in the Spanish languag
         - Diferenciación Automática 
             - Número duales
             - Funciones especiales
+    - Integración numérica o cuadratura.
+        - El problema a resolver.
+        - Integrales de una variable.
+            - Métodos tipo Newton–Cotes
+                - Rectángulo
+                - Punto medio
+                - Trapecio
+                - Simpson
+        - Integraciones adaptativas
+        - Integración multidimensional.
+        - Comparación con `SciPy`
