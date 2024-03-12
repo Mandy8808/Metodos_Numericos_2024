@@ -39,5 +39,7 @@ In this repository, I present a set of Jupyter notebooks (in the Spanish languag
                 - Trapecio
                 - Simpson
         - Integraciones adaptativas
+            - Número de paneles 
+            - Integración Gaussiana. Posicionamiento de los nodos y peso. Generalizando el intervalo.
         - Integración multidimensional.
         - Comparación con `SciPy`
