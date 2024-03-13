@@ -41,5 +41,6 @@ In this repository, I present a set of Jupyter notebooks (in the Spanish languag
         - Integraciones adaptativas
             - Número de paneles 
             - Integración Gaussiana. Posicionamiento de los nodos y peso. Generalizando el intervalo.
+            - Casos Particulares. Funciones periódicas. Singularidades. Intervalos $a\to\infty$, etc.
         - Integración multidimensional.
         - Comparación con `SciPy`
