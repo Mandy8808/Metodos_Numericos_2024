@@ -44,3 +44,27 @@ In this repository, I present a set of Jupyter notebooks (in the Spanish languag
             - Casos Particulares. Funciones periódicas. Singularidades. Intervalos $a\to\infty$, etc.
         - Integración multidimensional.
         - Comparación con `SciPy`
+    - Interpolación, splines y una segunda mirada al cálculo numérico.
+        - El problema a resolver.
+        - Interpolación.
+            - Interpolación polinomial
+                - Base monomial
+                - Interpolación de Lagrange
+                - Interpolación polinomial de Newton
+
+            - Interpolación de trazados (Spline)
+                - Spline Lineal (poligonales continuas)
+                - Splines Cúbico clase 1
+                - Splines cuadráticos
+                - Splines Cúbico clase 2
+            
+            - Interpolación trigonométrica
+                - Serie de Fourier 
+                - Interpolación trigonométrica
+                - Interpolación trigonométrica usando la Transformada discreta de Fourier
+                    - Transformada discreta de Fourier (DFT)
+                    - Transformada rápida de Fourier (FFT)
+        - Comparación con `SciPy`
+
+# Wolfram Mathematica
+El curso que acá aparece se puede encontrar en: [An Elementary Introduction to the Wolfram Language](https://www.wolfram.com/language/elementary-introduction/3rd-ed/)
