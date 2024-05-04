@@ -7,10 +7,10 @@ In this repository, I present a set of Jupyter notebooks (in the Spanish languag
 
 
 # TOPICS
-- Bloque Cero
+- Bloque Cero (Fueron usadas como principales referencias [Ref1](https://ellibrodepython.com), [Ref2](https://docs.python.org/3/contents.html))
     - Buenas prácticas al programar.
 	- Ideas básicas sobre Python y algunos paquetes fundamentales.
-- Bloque Uno
+- Bloque Uno (Fue usada como referencias la Bibliografía que aparece en la carpeta Books)
     - Errores. Tipos de errores. Error Real, Absoluto y Relativo. Propagación de errores. Representación de número reales. Comparando flotantes. Suma compensada. Manipulando expresiones.
     - Root de ecuaciones de una variable. 
         - Método de bisección
