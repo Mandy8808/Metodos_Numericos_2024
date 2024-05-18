@@ -1,5 +1,6 @@
 
-<img align="right" width="30%" src="Lectures/Bloque_Cero/capturas/Pos.png">
+<img align="right" width="28%" src="Lectures/Bloque_Cero/capturas/Pos.png">
+
 # Lecture Notes. Introduction to Numerical Method:
 
 In this repository, I present a set of Jupyter notebooks (in Spanish language) that I used in the Numerical Methods lectures   January-August 2024, DCI-UGTO.
