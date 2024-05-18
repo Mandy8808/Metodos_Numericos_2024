@@ -1,4 +1,7 @@
 # Lecture Notes. Introduction to Numerical Method:
+
+<img align="right" width="25%" src="Lectures/Bloque_Cero/capturas/Pos.png">
+
 In this repository, I present a set of Jupyter notebooks (in Spanish language) that I used in the Numerical Methods lectures   January-August 2024, DCI-UGTO.
 
 # FOLDERS:
