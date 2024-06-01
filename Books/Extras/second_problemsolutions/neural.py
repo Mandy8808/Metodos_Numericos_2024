@@ -36,4 +36,6 @@ if __name__ == '__main__':
     data = generatedata(400,0.2,4.2,sts)
     np.random.seed(5179)
     W = np.random.uniform(-1,1,(4,10))
-    W, s = sgd(W, data[0,155], data[1,155]); print(s)
+    W, s = sgd(W, data[0,155], data[1,155]); 
+    
+    print(s)
