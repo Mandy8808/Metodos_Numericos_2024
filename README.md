@@ -19,9 +19,9 @@ In this repository, I present a set of Jupyter notebooks (in Spanish language) t
 - [Exams:](Exams/README.md) This folder contains the different exams and their answers (in Spanish).
 - [Memo:](Memo/CF_memo.pdf) This folder contains the course memo.
 
-# BLOQUES:
+# BLOCKS (SECTIONS):
 - [Bloque Cero](Lectures/Bloque_Cero/README.md)
 - [Bloque Uno](Lectures/Primer_Bloque/README.md)
 
-# Wolfram Mathematica
+# Wolfram Mathematica:
 During the course, some implementations in Wolfram Mathematica will be covered for an introductory course. Please consult: [An Elementary Introduction to the Wolfram Language](https://www.wolfram.com/language/elementary-introduction/3rd-ed/)

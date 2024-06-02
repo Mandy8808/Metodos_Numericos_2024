@@ -1,10 +1,10 @@
 ### Bloque Cero 
 
-Fueron usadas como principales referencias [Ref1](https://ellibrodepython.com) y [Ref2](https://docs.python.org/3/contents.html)
+The structure of this block is as follows:
 
-La estructura de este bloque es la siguiente:
+- Good programming practices.
+- Basic ideas about Python and some fundamental packages (It is divided into 7 parts).
 
-- Buenas prácticas al programar.
-- Ideas básicas sobre Python y algunos paquetes fundamentales (Se divide en 7 partes).
+Additionally, there are some folders with complementary material from the lectures.
 
-Adicionalmente aparecen algunas carpetas con material complementario de las conferencias.
+They were used as the main references [Ref1](https://ellibrodepython.com) and [Ref2](https://docs.python.org/3/contents.html)
