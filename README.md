@@ -1,6 +1,7 @@
 <p float="left">
 <a href = "https://github.com/Mandy8808/Metodos_Numericos_2024/blob/master/LICENSE"> <img src="https://img.shields.io/badge/GNU GP license-green" alt="alt text"></a>
-<a href = "https://github.com/Mandy8808/Metodos_Numericos_2024.git"> <img src="https://img.shields.io/badge/Language-Python-blue" alt="alt text"> </a>
+<a href = "https://www.python.org"> <img src="https://img.shields.io/badge/Language-Python-blue" alt="alt text"> </a>
+<a href = "https://www.wolfram.com"> <img src="https://img.shields.io/badge/Language-Wolfram Mathematica-red" alt="alt text"> </a>
 <a href = "https://github.com/Mandy8808/Metodos_Numericos_2024.git"> <img src="https://img.shields.io/badge/version-1.0-red" alt="alt text"> </a>
 </p>
 
