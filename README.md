@@ -1,3 +1,8 @@
+<p float="left">
+<a href = "https://github.com/Mandy8808/Metodos_Numericos_2024.git"> <img src="https://img.shields.io/badge/Language-Python-blue" alt="alt text"> </a>
+<a href = "https://github.com/Mandy8808/Metodos_Numericos_2024/blob/master/LICENSE"> <img src="https://img.shields.io/badge/GNU-GP-license-green" alt="alt text"></a>
+<a href = "https://github.com/Mandy8808/Metodos_Numericos_2024.git"> <img src="https://img.shields.io/badge/version-1.0-red" alt="alt text"> </a>
+</p>
 
 <img align="right" width="28%" src="Lectures/Bloque_Cero/capturas/Pos.png">
 

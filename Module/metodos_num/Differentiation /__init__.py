@@ -1,7 +1,8 @@
 # matematicas/root/__init__.py
 """
-This is a module that contain all root implementations
+This is a module that contain all differentiation implementations
 """
+print('Loading Differentiation modules')
 
 from .BS import Bis, roo_Bis  
 from .secv1 import secv1, roo_Secv1  
