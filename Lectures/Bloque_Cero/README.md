@@ -5,8 +5,8 @@ The structure of this block is as follows:
 - Good programming practices:
     - [Lecture](Buenas_practicas_al_programar.ipynb)
 - Basic ideas about Python and some fundamental packages (It is divided into 7 parts):
-    - [Lecture 1](Ideas_basicas_sobre_Python_y_algunos_paquetes_fundamentales_Part1.ipynb)
-    - [Lecture 2](Ideas_basicas_sobre_Python_y_algunos_paquetes_fundamentales_Part2.ipynb)
+    - [Lecture 1: Entorno Jupyter. El ABC del entorno Python.](Ideas_basicas_sobre_Python_y_algunos_paquetes_fundamentales_Part1.ipynb)
+    - [Lecture 2: Objetos tipo: string, list, tuple, dictionary, y set. ](Ideas_basicas_sobre_Python_y_algunos_paquetes_fundamentales_Part2.ipynb)
     - [Lecture 3](Ideas_basicas_sobre_Python_y_algunos_paquetes_fundamentales_Part3.ipynb)
     - [Lecture 4](Ideas_basicas_sobre_Python_y_algunos_paquetes_fundamentales_Part4.ipynb)
     - [Lecture 5](Ideas_basicas_sobre_Python_y_algunos_paquetes_fundamentales_Part5.ipynb)
