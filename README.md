@@ -9,7 +9,7 @@
 
 # Lecture Notes. Introduction to Numerical Method:
 
-In this repository, I present a set of Jupyter notebooks (in Spanish language) that I used in the Numerical Methods lectures January-August 2024, [DCI](http://www.dci.ugto.mx)-[UGTO](https://www3.ugto.mx/en/).
+In this repository, I present a set of Jupyter notebooks (in Spanish language) that I used in the Numerical Methods lectures January-August 2024.
 
 # FOLDERS:
 - [Lectures](Lectures/README.md)
