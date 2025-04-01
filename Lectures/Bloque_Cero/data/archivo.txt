@@ -1,0 +1,3 @@
+ Hola, estudiantes!
+Bienvenidos a la clase de Python.
+Hoy aprenderemos sobre archivos.
